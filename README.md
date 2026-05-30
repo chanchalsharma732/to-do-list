@@ -1,2 +1,2 @@
 # to-do-list
-to do list html
+A simple to-do list application that allows users to add tasks dynamically using JavaScript
