@@ -1,2 +1,22 @@
-# to-do-list
-A simple to-do list application that allows users to add tasks dynamically using JavaScript
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h2>To-Do List</h2>
+
+<input id="task" placeholder="Enter task">
+<button onclick="addTask()">Add</button>
+
+<ul id="list"></ul>
+
+<script>
+function addTask() {
+let task = document.getElementById("task").value;
+let li = document.createElement("li");
+li.innerText = task;
+document.getElementById("list").appendChild(li);
+}
+</script>
+
+</body>
+</html>
